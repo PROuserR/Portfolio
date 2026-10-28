@@ -32,7 +32,7 @@ const Homepage = () => {
             src="/hero.png"
             alt=""
             fill
-            className="object-contain hover:grayscale-[75%]"
+            className="object-contain"
           />
         </motion.div>
         {/* TEXT CONTAINER */}
@@ -67,7 +67,7 @@ const Homepage = () => {
           >
             <Link href="/projects">
               <motion.button
-                className="p-4 rounded-lg ring-1 ring-black bg-red-950 text-white hover:opacity-75"
+                className="p-4 rounded-lg ring-1 ring-black bg-red-900 text-white hover:opacity-75"
                 initial={{ y: 400 }}
                 transition={{ delay: 0.5, duration: 0.75 }}
                 animate={{ y: 0 }}

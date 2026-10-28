@@ -29,38 +29,41 @@ const ProjectsPage = () => {
   const items = [
     {
       id: 1,
-      title: t("instagramClone"),
-      desc: t("instagramCloneDesc"),
-      img: "https://images.pexels.com/photos/5053836/pexels-photo-5053836.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=20",
-      link: "https://github.com/PROuserR/Instagram-Clone-Frontend",
+      title: t("universityMailManagement"),
+      desc: t("universityMailManagementDesc"),
+      img: "https://images.pexels.com/photos/2570062/pexels-photo-2570062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=20",
+      link: "https://github.com/PROuserR/university_mailbox_system",
+      liveDemo: "https://warm-bublanina-2a917b.netlify.app/",
       ref: firstImage,
       inView: isFirstImageInView,
     },
     {
       id: 2,
-      title: t("socialMediaPlatform"),
-      desc: t("socialMediaPlatformDesc"),
-      img: "https://images.pexels.com/photos/920382/pexels-photo-920382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      link: "https://github.com/PROuserR/Social-Media-Platform",
+      title: t("instagramClone"),
+      desc: t("instagramCloneDesc"),
+      img: "https://images.pexels.com/photos/5053836/pexels-photo-5053836.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=20",
+      link: "https://github.com/PROuserR/Instagram-Clone-Frontend",
+      liveDemo: "https://prouserr.netlify.app/",
       ref: secondImage,
       inView: isSecondImageInView,
     },
     {
       id: 3,
-      title: t("timeManagmentTable"),
-      desc: t("timeManagmentTableDesc"),
-      img: "https://images.pexels.com/photos/6892902/pexels-photo-6892902.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      link: "https://github.com/PROuserR/TimeManagmentTable",
+      title: t("socialMediaPlatform"),
+      desc: t("socialMediaPlatformDesc"),
+      img: "https://images.pexels.com/photos/920382/pexels-photo-920382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      link: "https://github.com/PROuserR/Social-Media-Platform",
+      liveDemo: "",
       ref: thirdImage,
       inView: isThirdImageInView,
     },
     {
       id: 4,
-      title: t("lyricsFinder"),
-      desc: t("lyricsFinderDesc"),
-      img: "https://images.pexels.com/photos/5118495/pexels-photo-5118495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      link: "https://github.com/PROuserR/Lyrics-Finder",
-      blog: "https://dev.to/prouserr/from-a-few-lines-of-code-to-building-a-whole-functional-website--459e",
+      title: t("timeManagmentTable"),
+      desc: t("timeManagmentTableDesc"),
+      img: "https://images.pexels.com/photos/6892902/pexels-photo-6892902.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      link: "https://github.com/PROuserR/TimeManagmentTable",
+      liveDemo: "",
       ref: fourthImage,
       inView: isFourthImageInView,
     },
@@ -71,6 +74,7 @@ const ProjectsPage = () => {
       img: "https://images.pexels.com/photos/3781338/pexels-photo-3781338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       link: "https://github.com/PROuserR/Smart-Calculator",
       blog: "https://www.codeproject.com/Articles/5370605/Lets-Code-that-Wicked-Cool-Calculator",
+      liveDemo: "",
       ref: fifthImage,
       inView: isFifthImageInView,
     },
@@ -115,6 +119,14 @@ const ProjectsPage = () => {
                         {t("viewMore")}
                       </button>
                     </Link>
+                    {item.liveDemo.length != 0 &&
+                      <Link href={item.liveDemo} className="w-fit">
+                        <button className="text-lg p-2 md:p-4 md:text-md lg:p-6 lg:text-xl bg-red-900 text-red-300 dark:bg-red-300 dark:text-red-900 font-semibold rounded-xl hover:opacity-75">
+                          {t("liveDemo")}
+                        </button>
+                      </Link>
+                    }
+
                     {item?.blog && (
                       <Link href={item.blog} className="w-fit">
                         <button className="text-lg p-2 md:p-4 md:text-md lg:p-6 lg:text-xl bg-red-900 text-red-300 dark:bg-red-300 dark:text-red-900 font-semibold rounded-xl hover:opacity-75">

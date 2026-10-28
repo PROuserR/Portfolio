@@ -88,13 +88,13 @@ const AboutPage = () => {
                 Next.js
               </div>
               <div className="rounded  p-2 text-xl cursor-pointer bg-red-950 text-white hover:bg-white hover:text-black">
-                Bootstrap
+                AI prompting
               </div>
               <div className="rounded  p-2 text-xl cursor-pointer bg-red-950 text-white hover:bg-white hover:text-black">
                 Tailwind CSS
               </div>
               <div className="rounded  p-2 text-xl cursor-pointer bg-red-950 text-white hover:bg-white hover:text-black">
-                GraphQL
+                Open Source AI
               </div>
               <div className="rounded  p-2 text-xl cursor-pointer bg-red-950 text-white hover:bg-white hover:text-black">
                 Zustand

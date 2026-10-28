@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`text-red-950 dark:text-red-200 ${NewsreaderFont.className}`}
+        className={`text-red-900 dark:text-red-300 ${NewsreaderFont.className}`}
       >
         <TransitionProvider>{children}</TransitionProvider>
       </body>

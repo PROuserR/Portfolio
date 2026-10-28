@@ -3,7 +3,7 @@ const translation = {
     translation: {
       home: "Home",
       about: "About",
-      projectsNav: "My Works",
+      projectsNav: "My Projects",
       contact: "Contact",
       //
       heroH1: "Crafting Digital Experiences, Building the Future.",
@@ -32,6 +32,9 @@ const translation = {
         "Creating interactive and responsive webpages using React.js and Next.js",
       //
       projects: "Projects🧑‍🏫",
+      universityMailManagement: "University Mail Management",
+      universityMailManagementDesc:
+        "A project made to manage university mail and communaction",
       instagramClone: "Instagram Clone",
       instagramCloneDesc:
         "Experience the best of social media with this full-stack Instagram clone, powered by Django and React.",
@@ -41,14 +44,12 @@ const translation = {
       timeManagmentTable: "Time Management Table",
       timeManagmentTableDesc:
         "Manage your weekly routines and appointments with ease",
-      lyricsFinder: "Lyrics-Finder",
-      lyricsFinderDesc:
-        "Find your next favourite lyrics without hassle or just see what's Hot from Hot Tracks list.",
       smartCalculator: "Smart Calculator",
       smartCalculatorDesc:
         "Let it do the hard work, from solving equations to image to text conversion...",
       doYouHaveAProject: "Do you have a project in mind?",
-      viewMore: "View More 🚀",
+      viewMore: "View Code ",
+      liveDemo: "Live Demo 🚀",
       seeBlog: "See Blog 📃",
       andMore: "And More ...",
     },
@@ -86,6 +87,9 @@ const translation = {
         "إنشاء صفحات ويب تفاعلية ومتجاوبة باستخدام React.js وNext.js",
       //
       projects: "🧑‍🏫المشاريع",
+      universityMailManagement: "إدارة البريد الجامعي",
+      universityMailManagementDesc:
+        "مشروع أُنشئ لإدارة المراسلات والاتصالات الجامعية",
       instagramClone: "استنساخ انستغرام",
       instagramCloneDesc:
         "استمتع بأفضل ما في وسائل التواصل الاجتماعي مع هذا الاستنساخ الكامل",
@@ -101,6 +105,7 @@ const translation = {
         "دعه يقوم بالعمل الشاق، من حل المعادلات إلى تحويل الصور إلى نص",
       doYouHaveAProject: "هل لديك مشروع في ذهنك؟",
       viewMore: "🚀رؤية المزيد",
+      liveDemo: "عرض توضيحي مباشر 🚀",
       seeBlog: " 📃رؤية المدونة",
       andMore: "...و المزيد",
     },
